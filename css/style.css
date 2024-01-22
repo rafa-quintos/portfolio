@@ -380,7 +380,7 @@ PORTFOLIO
 	-o-transform: scale(1.1);
 	transform: scale(1.1);
 }
-.portfolio-item .hover-bg {
+.hover-bg {
 	height: 200px;
 	width: 280px;
 	overflow: hidden;

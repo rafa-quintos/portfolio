@@ -91,7 +91,7 @@ section.no-padding{
 }
 
 figure{
-	margin-bottom: 30px;
+	margin-bottom: 5px;
 }
 
 .container{
@@ -366,7 +366,7 @@ PORTFOLIO
 }
 
 .portfolio-item {
-	margin: 15px 0;
+	margin: 20px 0;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
@@ -381,7 +381,8 @@ PORTFOLIO
 	transform: scale(1.1);
 }
 .portfolio-item .hover-bg {
-	height: 180px;
+	height: 200px;
+	width: 280px;
 	overflow: hidden;
 	position: relative;
 }
@@ -391,7 +392,7 @@ PORTFOLIO
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 30% 0 0 0;
+	padding: 20% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;

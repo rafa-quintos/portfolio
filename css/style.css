@@ -23,6 +23,7 @@ p{
 	margin-bottom: 30px;
 }
 
+
 p,h6, address{
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
@@ -33,6 +34,10 @@ p,h6, address{
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	font-weight: 800
+}
+
+.p-rightpad {
+	padding-right: 40px;
 }
 
 h1 {

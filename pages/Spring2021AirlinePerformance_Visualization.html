@@ -15,11 +15,16 @@
     <meta name="keywords" content="data analysis, data preparation, data acquisition, data visualization">
     <meta name="author" content="GraphBerry.com"/>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css"  href="../css/bootstrap.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/latin-lato.css">
     <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="../css/magnific-popup.css">
+<!-- Stylesheet
+<!--     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css"> -->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/nivo-lightbox/nivo-lightbox.css">
+	<link rel="stylesheet" type="text/css" href="../css/nivo-lightbox/default.css">
 </head>
 <body>
 <header class="no-print">
@@ -75,14 +80,54 @@
         <div class="title text-center">
             <h2>Spring 2021 Airline Performance</h2>
             <div class="divider divider-lg"></div>
+			<noscript>
+				<h5>Javascript is not enabled. Only an image with be shown</h5>
+			</noscript>
         </div>
     </div>
-	<div>
-		 <!-- Begin embed code -->
-			<iframe style="border:0px;min-width: 1100px;min-height: 600px;margin: auto;display: block;" src="https://public.tableau.com/shared/86YDY5T6S?:display_count=no&:showVizHome=no&:tabs=no&:toolbar=no&:showShareOptions=false">
-			</iframe>
-		<!-- End embed code -->
-    </div>
+	
+	<div class='tableauPlaceholder' id='viz1706039674796' cstyle='position: relative'>
+		<noscript>
+			<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;RafaQuintosSpring2021AirlinePerformance&#47;Spring2021AirlinePerformance&#47;1_rss.png' style='border: none;min-width: 1100px;min-height: 600px;margin: auto;display: block;' />
+		</noscript>
+		<object class='tableauViz'  style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+			<param name='embed_code_version' value='3' />
+			<param name='site_root' value='' />
+			<param name='name' value='RafaQuintosSpring2021AirlinePerformance&#47;Spring2021AirlinePerformance' />
+			<param name='tabs' value='no' />
+			<param name='toolbar' value='no' />
+			<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;RafaQuintosSpring2021AirlinePerformance&#47;Spring2021AirlinePerformance&#47;1.png' />
+			<param name='animate_transition' value='no' />
+			<param name='display_static_image' value='yes' />
+			<param name='display_spinner' value='yes' />
+			<param name='display_overlay' value='yes' />
+			<param name='display_count' value='no' />
+			<param name='language' value='en-US' />
+			<param name='showVizHome' value='no' />
+			<param name='showShareOptions' value='false' />
+		</object>
+	</div>
+	<script type='text/javascript'>
+		var divElement = document.getElementById('viz1706039674796');
+		var vizElement = divElement.getElementsByTagName('object')[0];
+
+		if ( divElement.offsetWidth > 800 ) {
+			vizElement.style.width='100%';
+			vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+		} else if (	divElement.offsetWidth > 500 ) {
+			vizElement.style.width='100%';
+			vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+		} else {
+			vizElement.style.width='100%';
+			vizElement.style.height='1627px';
+		}
+
+		var scriptElement = document.createElement('script');
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);
+	</script>
+	<br>
     <div class="col-md-8 col-md-offset-2 div-center">
 		<a href="../index.html#portfolio" class="btn btn-lg btn-primary">MORE PORTFOLIOS</a>
 	</div>
@@ -160,12 +205,15 @@
         </div>
     </div>
 </footer>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="../js/jquery.mixitup.js"></script>
-<script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-<script type="text/javascript" src="../js/smooth-scroll.js"></script>
-<script src="../js/custom.js"></script>
+<script type="text/javascript" src="../js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="../js/bootstrap.js"></script> 
+<script type="text/javascript" src="../js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="../js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="../js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="../js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="../js/main.js"></script>
 <script type="text/javascript" src="../js/noprint.js"></script>
+<script type="text/javascript" src="../js/custom.js"></script>
+
 </body>
 </html>

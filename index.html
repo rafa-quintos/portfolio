@@ -9,13 +9,23 @@
     <meta name="keywords" content="data analysis, data preparation, data acquisition, data visualization">
     <meta name="author" content="GraphBerry.com"/>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" type="text/css" href="css/latin-lato.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<!-- Stylesheet
+<!--     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css"> -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<noscript>
+	<style type="text/css">
+		.categories { display:none; }
+	</style>
+</noscript>
 </head>
-<body>
+<body id="page-top">
 <header class="no-print">
     <nav class="navbar navbar-fixed-top" id="header-nav">
 		<div class="container-fluid">
@@ -27,7 +37,7 @@
 				</button>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li><a data-scroll href="#">Home</a></li>
+						<li><a data-scroll href="#page-top">Home</a></li>
 						<li><a data-scroll href="#whatICanDo">What I Can Do</a></li>
 						<li><a data-scroll href="#portfolio">Portfolio</a></li>
 						<li><a data-scroll href="#about">About</a></li>
@@ -130,77 +140,79 @@
         </div>
     </div>
     <div class="container" id="portfolio-grid">
-        <nav class="centered-pills clearfix">
-            <ul class="nav nav-pills" >
-                <li><a href="javascript:void(0);" class="filter active" data-filter="all">All</a></li>
-                <li><a href="javascript:void(0);" class="filter" data-filter=".visualization">Data Visualization</a></li>
-                <li><a href="javascript:void(0);" class="filter" data-filter=".acquisition">Data Acquisition</a></li>
-                <li><a href="javascript:void(0);" class="filter" data-filter=".preparation">Data Preparation</a></li>
-                <li><a href="javascript:void(0);" class="filter" data-filter=".analysis">Data Analysis</a></li>
-            </ul>
-        </nav>
+		<div class="categories">
+			<ul class="cat">
+				<li>
+				  <ol class="type">
+					<li><a href="javascript:void(0);" class="filter active" data-filter="*">All</a></li>
+					<li><a href="javascript:void(0);" class="filter" data-filter=".visualization">Data Visualization</a></li>
+					<li><a href="javascript:void(0);" class="filter" data-filter=".acquisition">Data Acquisition</a></li>
+					<li><a href="javascript:void(0);" class="filter" data-filter=".preparation">Data Preparation</a></li>
+					<li><a href="javascript:void(0);" class="filter" data-filter=".analysis">Data Analysis</a></li>
+				</ol>
+				</li>
+			</ul>
+		</div>
 		<div class="center">
-            <figure class="mix all visualization col-md-3">
-				<div class="portfolio-item hover-bg">
-					<a href="pages/Covid19Visualization.html" title="Covid-19 Visualization">
-						<div class="hover-text">
-							<h4>Covid-19 Visualization</h4>
-						</div>
-						<img class="img-responsive" src="img/portfolio/Covid19Visualization.jpg" alt="Covid-19 Visualization">
-					</a>
+			<div class="row">
+			  <div class="portfolio-items">
+				<div class="col-sm-6 col-md-3 col-lg-3 visualization">
+				  <div class="portfolio-item">
+					<div class="hover-bg">
+						<a href="pages/Covid19Visualization.html" title="Covid-19 Visualization" data-lightbox-gallery="gallery1">
+					  <div class="hover-text">
+						<h4>Covid-19 Visualization</h4>
+					  </div>
+					  <img src="img/portfolio/Covid19Visualization.jpg" class="img-responsive" alt="Covid-19 Visualization"> </a> </div>
+				  </div>
 				</div>
-            </figure>
-            <figure class="mix all visualization col-md-3">
-				<div class="portfolio-item hover-bg">
-					<a href="pages/Spring2021AirlinePerformance_Visualization.html" title="Spring 2021 Airline Performance Visualization">
-						<div class="hover-text">
-							<h4>Spring 2021 Airline Performance Visualization</h4>
-						</div>
-						<img class="img-responsive" src="img/portfolio/Spring2021AirlinePerformance_Visualization.jpg" alt="Spring 2021 Airline Performance Visualization">
-					</a>
+				<div class="col-sm-6 col-md-3 col-lg-3 visualization">
+				  <div class="portfolio-item">
+					<div class="hover-bg"> <a href="pages/Spring2021AirlinePerformance_Visualization.html" title="Spring 2021 Airline Performance Visualization" data-lightbox-gallery="gallery1">
+					  <div class="hover-text">
+						<h4>Spring 2021 Airline Performance Visualization</h4>
+					  </div>
+					  <img src="img/portfolio/Spring2021AirlinePerformance_Visualization.jpg" class="img-responsive" alt="Spring 2021 Airline Performance Visualization"> </a> </div>
+				  </div>
 				</div>
-            </figure>
-            <figure class="mix all visualization col-md-3">
-				<div class="portfolio-item hover-bg">
-					<a href="pages/MakeoverMonday2021W34_Visualization.html" title="Covid-19 Visualization">
-						<div class="hover-text">
-							<h4>Makeover Monday 2021W34 Visualization</h4>
-						</div>
-						<img class="img-responsive" src="img/portfolio/MakeoverMonday2021W34_Visualization.jpg" alt="Makeover Monday 2021W34 Visualization">
-					</a>
-					</div>
+				<div class="col-sm-6 col-md-3 col-lg-3 visualization">
+				  <div class="portfolio-item">
+					<div class="hover-bg"> <a href="pages/MakeoverMonday2021W34_Visualization.html" title="Covid-19 Visualization" data-lightbox-gallery="gallery1">
+					  <div class="hover-text">
+						<h4>Makeover Monday 2021W34 Visualization</h4>
+					  </div>
+					  <img src="img/portfolio/MakeoverMonday2021W34_Visualization.jpg" class="img-responsive" alt="Makeover Monday 2021W34 Visualization"> </a> </div>
+				  </div>
 				</div>
-			</figure>
-            <figure class="mix all acquisition col-md-3">
-				<div class="portfolio-item hover-bg">
-					<a href="javascript:void(0);" title="Data Acquisition - Coming Soon">
-						<div class="hover-text">
-							<h4>Data Acquisition - Coming Soon</h4>
-						</div>
-						<img class="img-responsive" src="img/portfolio/data_acquisition_coming_soon.jpg" alt="Data Acquisition - Coming Soon">
-					</a>
+				<div class="col-sm-6 col-md-3 col-lg-3 acquisition">
+				  <div class="portfolio-item">
+					<div class="hover-bg"> <a href="javascript:void(0);" title="Data Acquisition - Coming Soon" data-lightbox-gallery="gallery2">
+					  <div class="hover-text">
+						<h4>Data Acquisition - Coming Soon</h4>
+					  </div>
+					  <img src="img/portfolio/data_acquisition_coming_soon.jpg" class="img-responsive" alt="Data Acquisition - Coming Soon"> </a> </div>
+				  </div>
 				</div>
-			</figure>
-            <figure class="mix all preparation col-md-3">
-				<div class="portfolio-item hover-bg">
-						<a href="javascript:void(0);" title="Data Preparation - Coming Soon">
-							<div class="hover-text">
-								<h4>Data Preparation - Coming Soon</h4>
-							</div>
-							<img class="img-responsive" src="img/portfolio/data_preparation_coming_soon.jpg" alt="Data Preparation - Coming Soon">
-						</a>
+				<div class="col-sm-6 col-md-3 col-lg-3 preparation">
+				  <div class="portfolio-item">
+					<div class="hover-bg"> <a href="javascript:void(0);" title="Data Preparation - Coming Soon" data-lightbox-gallery="gallery3">
+					  <div class="hover-text">
+						<h4>Data Preparation - Coming Soon</h4>
+					  </div>
+					  <img src="img/portfolio/data_preparation_coming_soon.jpg" class="img-responsive" alt="Data Preparation - Coming Soon"> </a> </div>
+				  </div>
 				</div>
-			</figure>
-            <figure class="mix all analysis col-md-3">
-				<div class="portfolio-item hover-bg">
-						<a href="javascript:void(0);" title="Data Analysis - Coming Soon">
-							<div class="hover-text">
-								<h4>Data Analysis - Coming Soon</h4>
-							</div>
-							<img class="img-responsive" src="img/portfolio/data_analysis_coming_soon.jpg" alt="Data Analysis - Coming Soon">
-						</a>
+				<div class="col-sm-6 col-md-3 col-lg-3 analysis">
+				  <div class="portfolio-item">
+					<div class="hover-bg"> <a href="javascript:void(0);" title="Data Analysis - Coming Soon" data-lightbox-gallery="gallery4">
+					  <div class="hover-text">
+						<h4>Data Analysis - Coming Soon</h4>
+					  </div>
+					  <img src="img/portfolio/data_analysis_coming_soon.jpg" class="img-responsive" alt="Data Analysis - Coming Soon"> </a> </div>
+				  </div>
 				</div>
-			</figure>
+			  </div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -309,14 +321,15 @@
         </div>
     </div>
 </footer>
-<script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/jquery.mixitup.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/smooth-scroll.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/noprint.js"></script>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/noprint.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 
-<script src="js/custom.js"></script>
 </body>
 </html>

@@ -367,14 +367,19 @@ textarea.form-control{
 	font-size: 70px;
 }
 
+#whatICanDo {
+	padding: 60px 0;
+	background: #f6f6f6;
+}
 
 /**********************
 PORTFOLIO
 ***********************/
 #portfolio {
-	padding: 120px 0;
+	padding: 60px 0;
 	background: #f6f6f6;
 }
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
@@ -585,6 +590,16 @@ quotes
 	padding: 15px 25px;
 	text-transform: uppercase;
 	width: 100%;
+}
+
+#about {
+	padding: 0px 0;
+	background: #f6f6f6;
+}
+
+#contact {
+	padding: 0px 0;
+	background: #f6f6f6;
 }
 
 address{

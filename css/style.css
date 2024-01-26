@@ -367,14 +367,19 @@ textarea.form-control{
 	font-size: 70px;
 }
 
+#whatICanDo {
+	padding: 60px 0;
+	background: #f6f6f6;
+}
 
 /**********************
 PORTFOLIO
 ***********************/
 #portfolio {
-	padding: 120px 0;
+	padding: 60px 0;
 	background: #f6f6f6;
 }
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
@@ -384,12 +389,13 @@ ul.cat li {
 }
 ol.type li {
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 10px;
+	margin-bottom: 30px;
 }
 ol.type li a {
 	border: 1px solid #777;
 	color: #555;
-	padding: 8px 20px;
+	padding: 10px 10px;
 }
 ol.type li a.active {
 	background: #222;
@@ -397,7 +403,7 @@ ol.type li a.active {
 	color: #fff;
 }
 ol.type li a:hover {
-	background: #222;
+	background: #555;
 	border: 1px solid #222;
 	color: #fff;
 }
@@ -458,7 +464,7 @@ ol.type li a:hover {
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 15% 15% 15% 15%;
+	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -586,6 +592,16 @@ quotes
 	width: 100%;
 }
 
+#about {
+	padding: 60px 0;
+	background: #f6f6f6;
+}
+
+#contact {
+	padding: 60px 0;
+	background: #f6f6f6;
+}
+
 address{
 	text-align: center;
 	margin-bottom: 70px;
@@ -705,16 +721,4 @@ RESPONSIVE
 	.no-print {
 		display: none;
     }
-}
-
-@media screen and (max-width: 480px) {
-  .show-on-desktop {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 481px) {
-  .hide-on-desktop {
-    display: none;
-  }
 }

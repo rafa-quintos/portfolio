@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rafa's Data Analyst page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My data portfolio based on the web template created by GraphBerry">
+    <meta name="keywords" content="data analysis, data preparation, data acquisition, data visualization">
+    <meta name="author" content="GraphBerry.com"/>
+    <!-- Latest compiled and minified CSS -->
+<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css"  href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/latin-lato.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+<!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/nivo-lightbox/nivo-lightbox.css">
+	<link rel="stylesheet" type="text/css" href="../css/nivo-lightbox/default.css">
+</head>
+<body>
+<header class="no-print">
+    <nav class="navbar navbar-fixed-top" id="header-nav">
+		<div class="container-fluid">
+			<div class="primary-menu">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				</button>
+				<div id="navbar" class="navbar-collapse collapse">
+					 <ul class="nav navbar-nav">
+						<li><a data-scroll href="../index.html">Home</a></li>
+						<li><a data-scroll href="../index.html#portfolio">More Portfolios</a></li>
+						<li><a data-scroll href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+    <div class="main-head">
+		<div class="container">
+			<div class="row">
+				<img src="../img/PersonalLogo.jpg" class="img-responsive"  alt="Personal Logo">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="divider divider-lg"></div>
+					<img src="../img/AspiringDataAnalyst.jpg" class="img-responsive"  alt="Aspiring Data Analyst">
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="no-print" id="portfolio_link">
+	<div class="quotes">
+		<div class="mask">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="single-quotes">
+							<p>Beyond the numbers, lives untold. My dashboard, a silent tribute to those lost, a call to action for those left behind.</p>
+							<p>- Inspired by Maya Angelou's "Still I Rise"</p>
+						</div>  
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<p></p>
+	<p>&nbsp;</p>
+    <div class="col-md-8 col-md-offset-2">
+        <div class="title text-center">
+            <h2>Covid-19 Daily Dashboard</h2>
+            <div class="divider divider-lg"></div>
+			<noscript>
+				<p class="p-bold">Javascript is not enabled. Only an image with be shown</p>
+			</noscript>
+        </div>
+    </div>
+	<div id="hasJavaScript" style="display: none">
+		<iframe style="border:0px;min-width: 1100px;min-height: 800px;margin: auto;display: block;" src="https://public.tableau.com/views/RafaQuintosCOVID-19DailyDashboard/COVID-19DailyDashboard?:language=en-US&:site_root=''&:display_count=no&:embed=y&:tabs=no&:toolbar=no&:showShareOptions=false&:showVizHome=no&:linktarget=_self">
+		</iframe>
+	</div>
+	<div id="noscript">
+		<img alt=' ' src='https://public.tableau.com/static/images/Ra/RafaQuintosCOVID-19DailyDashboard/COVID-19DailyDashboard/1.png' style='border: none;margin: auto;display: block;' />
+	</div>
+	<script type="text/javascript">
+
+		document.getElementById('hasJavaScript').style.display = 'block';
+		document.getElementById('noscript').style.display = 'none';
+	</script>
+	<p>&nbsp;</p>
+    <div class="col-md-8 col-md-offset-2 div-center">
+		<a href="../index.html#portfolio" class="btn btn-lg btn-primary">MORE PORTFOLIOS</a>
+	</div>
+</section>
+<section id="contact" class="no-print">
+	<div class="quotes">
+		<div class="mask">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="single-quotes">
+							<p>Reach out and let our ideas converge and possibilities unfold.</p>
+						</div>  
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<p>&nbsp;</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="title text-center">
+                    <h2>Contact Me</h2>
+                    <div class="divider divider-lg"></div>
+                </div>
+            </div>
+        </div>
+		<p>&nbsp;</p>
+		<div class="col-md-8 col-md-offset-3">
+			<form name="sentMessage" id="contactForm" action="https://formspree.io/f/xzbnbdkz" method="POST">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+                    		<input type="text" id="full-name" name="fullname" class="form-control" placeholder="First and Last Name" required="">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<input type="email" name="email" id="email" class="form-control" placeholder="Email" required="required">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+                    		<input type="text" name="_subject" id="subject" class="form-control" placeholder="Subject" required></input>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+						</div>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary">Send Message</button>
+				<input type="hidden" name="_next" value="./thanks.html"></input>
+				<p id="my-form-status"></p>
+			</form>
+		</div>
+	</div>
+</section>
+<footer class="no-print">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="social">
+                    <li class="wow bounceIn" data-wow-delay="0.1s"><a href="https://www.linkedin.com/in/raphael-quintos-ab95ab209/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="wow bounceIn" data-wow-delay="0.2s"><a href="" target="_blank"><i class="fa fa-github"></i></a></li>
+                </ul>
+                <p>Theme created by <a href="http://graphberry.com" target="_blank">GraphBerry</a> and modified by me</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="../js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../js/smooth-scroll.js"></script>
+<script src="../js/custom.js"></script>
+<script type="text/javascript" src="../js/noprint.js"></script>
+</body>
+</html>

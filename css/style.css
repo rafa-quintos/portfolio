@@ -3,6 +3,9 @@ html {
 }
 
 body {
+	font-family: "Lato", sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 	color: #777;
 }
 
@@ -91,7 +94,7 @@ h3, h4 {
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 300;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 
 h5 {
@@ -119,7 +122,7 @@ section.no-padding{
 	padding: 0;
 }
 
-.div-center{
+.div-center {
 	text-align:center;
 }
 
@@ -440,6 +443,7 @@ ol.type li a:hover {
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
+	text-align: center;
 }
 .portfolio-item:hover {
 	-webkit-transform: scale(1.1);

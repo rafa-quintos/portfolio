@@ -7,6 +7,8 @@ body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	color: #777;
+	height: 100%;
+	width: 100%;
 }
 
 a {
@@ -694,7 +696,7 @@ RESPONSIVE
 		right: -75%;
 		position: absolute;
 		margin-top: 12px;
-		opacity: 0;
+		opacity: 1;
 		transition: 300ms all ease-in-out;
 	}
 
